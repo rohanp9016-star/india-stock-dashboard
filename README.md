@@ -1,5 +1,7 @@
 # 🇮🇳 Indian Stock Market Scanner Dashboard
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=rohanp9016-star/india-stock-dashboard&branch=main&mainModule=app.py)
+
 A **live, browser-based dashboard** that scans NSE-listed Indian stocks and displays:
 
 - 📈 **Real-time CMP** (Current Market Price) via Yahoo Finance
@@ -14,25 +16,34 @@ A **live, browser-based dashboard** that scans NSE-listed Indian stocks and disp
 
 ---
 
-## 🚀 Quick Start
+## ☁️ Deploy on Streamlit Cloud (Free, No Install)
 
-### 1. Clone the repo
+1. Go to **[share.streamlit.io](https://share.streamlit.io)**
+2. Sign in with your **GitHub account** (`rohanp9016-star`)
+3. Click **"New app"**
+4. Fill in:
+   - **Repository:** `rohanp9016-star/india-stock-dashboard`
+   - **Branch:** `main`
+   - **Main file path:** `app.py`
+5. Click **"Deploy!"**
+
+Your app will be live at:
+```
+https://rohanp9016-star-india-stock-dashboard-app-XXXX.streamlit.app
+```
+
+---
+
+## 🚀 Local Quick Start
+
 ```bash
 git clone https://github.com/rohanp9016-star/india-stock-dashboard.git
 cd india-stock-dashboard
-```
-
-### 2. Install dependencies
-```bash
 pip install -r requirements.txt
-```
-
-### 3. Run the dashboard
-```bash
 streamlit run app.py
 ```
 
-The dashboard will open at **http://localhost:8501** in your browser.
+Opens at **http://localhost:8501**
 
 ---
 
@@ -55,4 +66,4 @@ RELIANCE, TCS, HDFCBANK, INFY, ICICIBANK, HINDUNILVR, WIPRO, TATAMOTORS, SUNPHAR
 
 ## ⚠️ Disclaimer
 
-This tool is for **educational purposes only**. Not SEBI-registered investment advice. Always consult a SEBI-registered advisor before making investment decisions.
+This tool is for **educational purposes only**. Not SEBI-registered investment advice.
